@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
+/* Сбрасываем стандартные стили для браузеров НАЧАЛО */
+* {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	transition: .3s ease-in-out;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+/* Сбрасываем стандартные стили для браузеров КОНЕЦ */
+
+
+#wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	background: #eee;
+	-webkit-box-shadow: 1px 3px 15px -1px rgba(38,34,38,1);
+	-moz-box-shadow: 1px 3px 15px -1px rgba(38,34,38,1);
+	box-shadow: 1px 3px 15px -1px rgba(38,34,38,1);
+}
+
+header h1 {
+	font-size: 60px;
+	text-align: center;
+	padding: 50px 0;
+	text-shadow: -3px -3px 9px rgba(150, 150, 150, 1);
+
+	background: #000000;
+	background: -webkit-repeating-radial-gradient(ellipse farthest-corner at center center, #000000 2%, #CF1512 100%);
+	background: -moz-repeating-radial-gradient(ellipse farthest-corner at center center, #000000 2%, #CF1512 100%);
+	background: repeating-radial-gradient(ellipse farthest-corner at center center, #000000 2%, #CF1512 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header nav {
+	overflow: hidden;
+}
+
+header nav a {
+	display: block;
+	float: left;
+	width: 240px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	padding: 25px 0;
+	border: 5px solid transparent;
+}
+
+header nav a:hover {
+	background: #fff;
+	color: #000;
+	border: 5px solid #000;
+}
+
+
+
+/* main styles */
+main {
+	overflow: hidden;
+}
+
+.product_item {
+	width: 400px;
+	height: 400px;
+	float: left;
+	opacity: .2;
+}
+
+.product_item:hover {
+	opacity: 1;
+}
+
+.product_item img {
+	width: 100%;
+}
+
+/* footer */
+
+footer {
+	background: #424242;
+	padding: 50px 0;
+}
+
+footer p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ddd;
+}
+
+footer p:last-child {
+	margin-top: 20px;
+}
+
+footer p span {
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
