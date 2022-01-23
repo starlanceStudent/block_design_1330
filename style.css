@@ -79,6 +79,13 @@ header nav a:hover {
 }
 
 
+#second_page_title {
+	text-align: center;
+	font-weight: 200;
+	font-size: 35px;
+    margin: 50px 0 70px 0;
+}
+
 
 /* main styles */
 main::after {
@@ -180,12 +187,7 @@ footer p span {
 
 /* NEWS PAGE START */
 
-#news_page_main h2 {
-	text-align: center;
-	font-weight: 200;
-	font-size: 35px;
-    margin: 50px 0 70px 0;
-}
+
 
 .news_item {
 	width: 240px;
@@ -238,3 +240,50 @@ footer p span {
 }
 
 /* NEWS PAGE END */
+
+
+
+
+/* CONTACTS PAGE START  */
+
+
+#contacts_page_main section {
+	width: 1100px;
+	margin: 0 auto 70px auto;
+}
+
+#contacts_page_main section::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#contacts_page_main section iframe, #contacts_page_main section aside {
+	display: block;
+	width: 550px;
+	float: left;
+}
+
+
+#contacts_page_main section aside {
+	padding: 0 25px;
+}
+
+#contacts_page_main section aside ul li {
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+}
+
+#contacts_page_main section aside ul li a {
+	color: green;
+}
+
+#contacts_page_main section aside ul li a:hover {
+	background: #000;
+	color: green;
+}
+
+
+/* CONTACTS PAGE END  */
