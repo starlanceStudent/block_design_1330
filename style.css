@@ -81,8 +81,10 @@ header nav a:hover {
 
 
 /* main styles */
-main {
-	overflow: hidden;
+main::after {
+	content: "";
+	display: block;
+  	clear: both;
 }
 
 .product_item {
@@ -174,3 +176,65 @@ footer p span {
 
 
 /* CATEGORIES PAGE END */
+
+
+/* NEWS PAGE START */
+
+#news_page_main h2 {
+	text-align: center;
+	font-weight: 200;
+	font-size: 35px;
+    margin: 50px 0 70px 0;
+}
+
+.news_item {
+	width: 240px;
+	height: 480px;
+	float: left;
+	border: 1px solid #424242;
+	transition: .01s ease-in-out;
+	overflow: hidden;
+}
+
+.news_item:hover {
+	transition: .01s ease-in-out;
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+	transform: scale(1.08);
+	-webkit-box-shadow: 3px 3px 39px -5px rgba(24,143,113,1);
+	-moz-box-shadow: 3px 3px 39px -5px rgba(24,143,113,1);
+	box-shadow: 3px 3px 39px -5px rgba(24,143,113,1);
+	border-radius: 20px;
+	border-width: 4px; /* толщина обводки */
+	border-color: #fff;  /* цвет обводки */
+}
+
+.news_item img {
+	display: block;
+	width: 100%;
+}
+
+.news_item h3 {
+	font-size: 20px;
+}
+
+.news_item p {
+	font-size: 12px;
+}
+
+.news_item h3, .news_item p, .news_item a {
+	padding: 0 15px;
+}
+
+.news_item a {
+	color: #424242;
+	font-weight: 700;
+}
+
+.news_item a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+/* NEWS PAGE END */
