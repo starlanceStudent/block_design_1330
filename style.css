@@ -69,13 +69,14 @@ header nav a {
 	color: #fff;
 	padding: 25px 0;
 	border: 5px solid transparent;
-	transition: .3s ease-in-out;
+	transition: .1s ease-in-out;
 }
 
 header nav a:hover {
 	background: #fff;
 	color: #000;
 	border: 5px solid #000;
+	transition: .1s ease-in-out;
 }
 
 
@@ -348,7 +349,7 @@ footer p span {
 	border: 2px solid #000;
 	margin: 0 0 10px 10px;
 	background: white;
-	transition: .2s ease-in-out;
+	transition: .1s ease-in-out;
 	border-radius: 15px;
 }
 
