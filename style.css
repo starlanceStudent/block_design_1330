@@ -42,6 +42,14 @@ li {
 	box-shadow: 1px 3px 15px -1px rgba(38,34,38,1);
 }
 
+#mobile_menu_btn {
+	display: none;
+}
+
+.visible {
+	display: block !important;
+}
+
 header h1 {
 	font-size: 60px;
 	text-align: center;
